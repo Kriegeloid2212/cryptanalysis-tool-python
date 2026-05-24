@@ -56,5 +56,25 @@
 
 ### Крок 1. Клонування репозиторію
 ```bash
-git clone https://github.com/ВАШ_ЛОГІН/historical-ciphers-cryptanalysis.git
+git clone https://github.com/Kriegeloid2212/historical-ciphers-cryptanalysis.git
 cd historical-ciphers-cryptanalysis
+```
+
+### Крок 2. Запуск застосунку
+```bash
+python main.py
+```
+
+### Крок 3. Запуск модульних тестів (опціонально)
+Для перевірки коректності роботи алгоритмів виконайте команду:
+```bash
+python -m unittest discover -s . -p "test_*.py"
+```
+
+---
+
+## 📂 Структура репозиторію
+
+*   `main.py` — головний файл проекту (містить реалізацію моделей шифрів, контролера та графічного інтерфейсу у структурованому вигляді).
+*   `test_main.py` — набір із 14 автоматизованих модульних тестів для перевірки логіки шифрування, дешифрування та аналізу.
+*   `README.md` — документація проекту.
